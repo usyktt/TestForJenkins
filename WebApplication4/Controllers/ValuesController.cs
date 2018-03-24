@@ -14,6 +14,10 @@ namespace WebApplication4.Controllers
         {
             return new string[] { "value1", "value2","value3" };
         }
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2", "value3" };
+        }
 
         // GET api/values/9
         public string Get(int id)
