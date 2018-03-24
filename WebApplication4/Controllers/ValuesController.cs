@@ -14,7 +14,7 @@ namespace WebApplication4.Controllers
         {
             return new string[] { "value1", "value2","value3" };
         }
-        public IEnumerable<string> Get()
+        public IEnumerable<string> Gett()
         {
             return new string[] { "value1", "value2", "value3" };
         }
